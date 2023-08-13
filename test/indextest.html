@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TATySMP-主页</title>
+
+    <!-- google-fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- //google-fonts -->
+
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	
+
+</head>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke">
+                <h1>
+                    <a class="navbar-brand" href="index.html">
+                        <i class=" "></i> TATySMP!
+                    </a>
+                </h1>
+                <!-- if logo is image enable this   
+            <a class="navbar-brand" href="#index.html">
+                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+            </a> -->
+                <button class="navbar-toggler collapsed bg-gradient" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-lg-auto align-items-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="banplayerlist.html">封神榜</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="art.html">服务器画廊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#url" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                动态 <span class="fas fa-angle-down"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Server-updatalog.html">服务器更新动态</a>
+                                <a class="dropdown-item" href="https://space.bilibili.com/662889837/dynamic">服主B站动态</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#url" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                帮助中心 <span class="fas fa-angle-down"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="BEhelp.html">基岩版加入服务器等问题</a>
+                                <a class="dropdown-item" href="JEhelp.html">Java版加入服务器等问题</a>
+                                <a class="dropdown-item" href="otherhelp.html">其他问题</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.wjx.top/vm/m7tqPP0.aspx# ">反馈服务器bug</a>
+                        </li>
+
+                        <!--/right-btn-->
+                        <div class="header-btn mx-2">
+                            <a class="btn btn-style btn-primary mr-lg-5" href="login.html"> 登录/注册</a>
+                        </div>
+                        <!--/right-btn-->
+
+                    </ul>
+                </div>
+
+                <!-- search -->
+                <ul class="cd-header-buttons px-lg-2">
+                    <li>
+                    <a class="cd-search-trigger" href="#cd-search">
+                        <span></span>
+                    </a>
+                    </li>
+                </ul>
+                <div id="cd-search" class="cd-search">
+                    <form action="#url" method="post">
+                        <input name="Search" type="search" placeholder="输入关键词以搜索[该功能没做好！！]">
+                    </form>
+                </div>
+                <!-- //search -->
+                
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+    
+
+
+    <!-- banner section -->
+    <section id="home" class="w3l-banner pt-5">
+        <div class="container pt-lg-5 pt-md-4">
+            <div class="row pt-lg-5 pt-4">
+                <div class="col-lg-7 banner-info-grid pt-lg-0 pt-5">
+                    <h1 class="mb-3">欢迎访问TATySMP!</h1>
+                    <h3 class="mb-4"> <span class="typed-text"></span><span class="cursor">&nbsp</span> </h3>
+                    <p>每日金句↓</p>
+                       
+<!--一言api-->
+                       
+<p id="hitokoto">:D 获取中...</p>
+<!-- 以下写法，选取一种即可 -->
+
+<!-- 现代写法，推荐 -->
+<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+<script src="https://cdn.bootcss.com/bluebird/3.5.1/bluebird.core.min.js"></script>
+<script src="https://cdn.bootcss.com/fetch/2.0.3/fetch.min.js"></script>
+<!--End-->
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+      return res.json();
+    })
+    .then(function (data) {
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = data.hitokoto; 
+    })
+    .catch(function (err) {
+      console.error(err);
+    })
+</script>
+
+<script>
+  var xhr = new XMLHttpRequest();
+  xhr.open('get', 'https://v1.hitokoto.cn');
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      var data = JSON.parse(xhr.responseText);
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = data.hitokoto;
+    }
+  }
+  xhr.send();
+</script>
+
+                
+
+
+<script src="https://v1.hitokoto.cn/?c=a&c=c&c=b&encode=js&c=k" defer></script>
+<!--一言api-->
+
+                    </p>
+                    
+                    <a class="btn btn-primary btn-style mt-5 me-2" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=jitIMCaERhAimYIs7W8qfcBLq1BTz_gi&authKey=7Q9LdXrPYY%2F1%2BPodR3fWAwZDTN4nYso3laWtxQ3FpSQ8E%2BifuhwRXbzRXzVszvP2&noverify=0&group_code=960641960"> 加入服务器QQ群 </a>
+					<a class="btn btn-primary btn-style mt-5 me-2" href="https://mc.minebbs.com/#/"> 前往下载MC </a>
+					
+					
+                    
+                </div>
+                <div class="col-lg-5 text-lg-end my-image mt-lg-0 mt-4">
+                    <img src="assets/images/null.png" class="img-fluid" />
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //banner section -->
+
+
+
+
+    <!-- 公告-->
+    <section class="w3l-whychooseus pt-5" id="about1">
+        <div class="container pt-lg-0 pt-md-4 pt-2">
+            <div class="row align-items-center">
+                <div class="col-lg-7 pe-lg-5 align-items-center">
+                    <div class="row two-grids">
+                        
+                        <div class="col-sm-6 grids_info d-flex">
+                            <div class="detail ms-3">
+                                <h4 class="w3l-title-main mb-2">公告|2023.6.20</h4>
+                                <p>由于各种原因，1.20版本推迟至7月份更新。见谅(ToT)/~~~
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-5 ps-lg-5 my-image mt-lg-0 mt-4">
+                    <img src="assets/images/banner.png" alt="" class="img-fluid">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 公告-->
+
+
+    <!-- About Section-->
+        <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <h3 class="w3l-title-main mb-2">服务器简介QWQ</h3>
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about/2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">2023/6/21 日</h6>
+                    <h3 class="w3l-title-main mb-2">JE/BE互通</h3>
+                    <p class="my-4 pe-lg-5">Java和基岩版联机不再是梦！”</p>
+                    <div class="my-info mt-4">
+                        <p>        我们有为基岩版做过专门优化，但是还是推荐使用Java游玩本服。毕竟这个东西只是为了能让基岩版用户加入服务器</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about/1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">2023/6/21 日</h6>
+                    <h3 class="w3l-title-main mb-2">泡脚池</h3>
+                    <p class="my-4 pe-lg-5">坐标: 主城→“泡脚池NPC”</p>
+                    <div class="my-info mt-4">
+                        <p>        主城的泡脚池。高端的石材只有上等的脚才能腌入味</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about/3.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">2023/6/29 日</h6>
+                    <h3 class="w3l-title-main mb-2">点唱姬</h3>
+                    <p class="my-4 pe-lg-5">钟菜单→点唱机”</p>
+                    <div class="my-info mt-4">
+                        <p>        超过216首歌可以播放！这么多歌，等你来点爆！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about/4.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">2023/6/29 日</h6>
+                    <h3 class="w3l-title-main mb-2">技能系统</h3>
+                    <p class="my-4 pe-lg-5">钟菜单→技能”</p>
+                    <div class="my-info mt-4">
+                        <p>        许多技能等你来解锁！打怪升级，然后转生成李小龙天下无敌！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about/5.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">2023/6/29 日</h6>
+                    <h3 class="w3l-title-main mb-2">签到系统</h3>
+                    <p class="my-4 pe-lg-5">钟菜单→签到/主城→“每日签到”NPC”</p>
+                    <div class="my-info mt-4">
+                        <p>        美好的一天从签到开始！每天都有“丰厚”的奖励！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about/6.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">2023/6/29 日</h6>
+                    <h3 class="w3l-title-main mb-2">QQ原神稽气人</h3>
+                    <p class="my-4 pe-lg-5">最近企鹅管控严重，有时可能会失效，有时屁事没有</p>
+                    <div class="my-info mt-4">
+                        <p>        可以在群里发送你的uid绑定你的原神账号，发送相关的关键词就能咨询到你的角色信息了，如: #可莉伤害 #可莉排行等等...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about/7.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">2023/6/29 日</h6>
+                    <h3 class="w3l-title-main mb-2">服务器QQ群聊消息互通</h3>
+                    <p class="my-4 pe-lg-5">如题</p>
+                    <div class="my-info mt-4">
+                        <p>        最近稽气人被企鹅制裁严重，有时会失效，有时一会屁事没有然后噶了</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row w3l-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about/8.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 w3l-about-info px-lg-4 align-center">
+                    <h6 class="w3l-title-small mb-1">2023/6/29 日</h6>
+                    <h3 class="w3l-title-main mb-2">超多工业等你来探索！</h3>
+                    <p class="my-4 pe-lg-5">如题</p>
+                    <div class="my-info mt-4">
+                        <p>        详情请看“https://slimefun-wiki.guizhanss.cn/”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //About Section-->
+
+
+
+
+
+    <!--/brands-->
+    <section class="w3l-brands py-md-5 py-4">
+        <div class="container py-lg-2">
+            <div class="align-items-center">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/TATySMPlogo.png" class="img-fluid" alt="Brand">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //brands -->
+
+
+
+     <!-- footer -->
+     <footer class="text-center">
+        <div class="footer py-5">
+            <div class="container py-md-4">
+                <div clss="footer-logo">
+                    <a class="logo" href="index.html">
+                        <i class=" "></i> TATySMP运营团队
+                    </a>
+                </div>
+                <div class="footer-contact-info mt-4">
+                    <ul>
+                        <li>
+                            <a href="mailto:2430778099@qq.com" class="contact-text-sub">
+                                <span class="fas fa-envelope me-2"></span>2430778099@qq.com </a>
+                        </li>
+                        <li>
+                            <p class="contact-text-sub"> 
+                                <span class="fas fa-map-marker me-2"></span>TATySMP会议室</p>
+                        </li>
+                    <ul class="follow-social mt-lg-5 mt-4">
+                        <li>
+                            <p>关注服主→ </p>
+                        </li>
+
+                        <li>
+                            <a href="https://space.bilibili.com/662889837?spm_id_from=333.1007.0.0">Bili</a>
+                        </li>
+
+                    </ul>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="row footer-grids">
+                <div class="col-lg-6 copyright text-lg-start text-center align-center">
+                    <p>© 2023 TATySMP17周目正式服务器 | <a target="_blank" href="http://www.MineBBS.net/" title="MineBBS">MineBBS</a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+
+	<!-- 弹窗代码开始 -->
+    <div class="web_notice" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.3);z-index: 99999;">
+    <div style="position: fixed;top: 50%;left: 50%;width: 550px;background: #FFF;transform: translate(-50%, -50%);border-radius: 40px;padding: 50px 40px;">
+    <h3 style="font-weight: bold;text-align: center;font-size: 30px;
+    ">网站通知</h3><div style="font-size: 16px;margin-top: 26px;line-height: 30px;color: #999;
+    ">网站公告代码测试1，网站公告代码测试2，网站公告代码测试3，网站公告代码测试4，网站公告代码测试5. -----TATySMP</div><a style="display: block;background: #98a3ff;color: #FFF;text-align: center;font-weight: bold;font-size: 19px;line-height: 60px;margin: 0 auto;margin-top: 45px;border-radius: 32px;width: 80%;" onclick="javascript:document.querySelector('.web_notice').remove()">我知道了</ a></div></div>
+    <!-- 弹窗代码结束 -->
+
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="按我回到顶部">
+        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!--search-bar-->
+    <script src="assets/js/search.js"></script>
+    <!--//search-bar-->
+
+    <!--/stats-number-counter-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+
+    </script>
+    <!--//stats-number-counter-->
+
+    <!--/owlcarousel-->
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- //brands-->
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                nav: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        nav: false
+                    },
+                    568: {
+                        items: 3,
+                        nav: false
+                    },
+                    768: {
+                        items: 4,
+                        nav: false
+                    }
+                }
+            })
+        })
+
+    </script>
+    <!-- //brands-->
+
+    <!-- /typig-text-->
+    <script>
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        const textArray = ["(*￣3￣)╭", "TATySMP！", "(′д｀σ)σ", "(｡･∀･)ﾉﾞ嗨"];
+        const typingDelay = 200;
+        const erasingDelay = 100;
+        const newTextDelay = 500; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                cursorSpan.classList.remove("typing");
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                // add class 'typing' if there's none
+                if (!cursorSpan.classList.contains("typing")) {
+                    cursorSpan.classList.add("typing");
+                }
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            } else {
+                cursorSpan.classList.remove("typing");
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+            if (textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+    </script>
+    <!-- //typig-text-->
+
+
+    <!-- jQuery-Photo-filter-lightbox-portfolio-plugin -->
+    <script src="assets/js/jquery-1.7.2.js"></script>
+    <script src="assets/js/jquery.quicksand.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <!-- //jQuery-Photo-filter-lightbox-portfolio-plugin -->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--bootstrap-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap-->
+    <!-- //Js scripts -->
+
+
+</body>
+
+</html>
